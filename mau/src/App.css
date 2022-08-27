@@ -1,0 +1,289 @@
+
+.Footer-Section{
+  background-image: url(./mau_pic_footer.jpg);
+  background-size: contain;
+}
+.Footer-Container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* position: relative; */
+}
+/* .Footer-Content{
+  padding: 20px;
+} */
+.School-Name{
+  color: black;
+}
+.Nav-Footer a{
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 10px;
+  color: black;
+}
+/* nav{
+  margin: 20px;
+} */
+
+.Nav-Footer div{
+  padding: 5px;
+  /* text-align: center; */
+}
+h4{
+  padding: 15px;
+  /* text-align: center; */
+  color: #D33232;
+}
+.Footer-Content-Powered{
+  display: grid;
+  text-align: center;
+  grid-column: 1/5;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.Location-Img{
+  /* text-align: center; */
+  margin-top: 0px;
+  padding-left:40px ;
+}
+.Site-Map-Header{
+  text-align: center;
+}
+a:hover{
+  color: #D33232;
+}
+
+/* header css */
+
+.Nav-Logo{
+  display: grid;
+  grid-template-columns: 2fr  3fr;
+  
+}
+
+.Nav-Logo img{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+
+}
+.Sub-Links{
+  display: inline-block;
+  background-color: #ba6438;
+  height: 30px;
+  padding: 10px;
+  border-bottom-left-radius: 9px;
+}
+.Sub-Links a{
+  /* margin-top: 30px; */
+  text-decoration: none;
+  /* padding-right: 25px; */
+  padding-left: 35px;
+  
+  color: white;
+}
+.Nav-Links{
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  /* margin-bottom: 2px; */
+}
+nav a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  
+}
+.Nav-Links nav{
+  float: right;
+}
+h3{
+  font-size: 16px;
+  color: #ba6438;
+}
+.Logo-Content{
+  display: flex;
+  height: 70px;
+}
+.Established{
+  color: black;
+  font-weight: lighter;
+}
+
+/* Main Css Starting here */
+.Main-Container{
+  margin: 0px;
+}
+.Cart-Container-Programs{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+}
+h2{
+  font-size: 30px;
+}
+
+.Link-Wrapper div{
+  padding: 10px;
+}
+.Link-Wrapper a{
+  text-decoration: none;
+  padding: 20px;
+}
+.Apply_section p {
+  padding: 10px;
+  text-align: justify;
+}
+.Apply_section span{
+  margin: 10px;
+  text-align: justify;
+  /* font-size: 20px; */
+}
+h1{
+  padding-left: 30px;
+}
+h2{
+  text-align: center;
+  color: #ba6438;
+}
+.Main-Display-Image{
+  background-image: url(./student.jpg);
+  background-size: cover;
+  /* opacity: 0.2; */
+  height: 300px;
+  width: auto;
+  margin-top: 0px;
+}
+.Main-Display-Image h1{
+  color: white;
+  padding: 50px 0px 10px 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+}
+.Main-Display-Image p {
+  font-size: 25px;
+  color: white;
+  padding-left: 50px;
+}
+input[type='search']{
+  padding: 13px;
+  width: 85%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ba6438;
+  outline: #ba6438;
+}
+.Search-Input div{
+  margin: 15px;
+}
+.Expand-Row{
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px){
+  .Cart-Container-Programs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+  }
+  .Programs-card{
+    display: grid;
+    grid-column: 1/4;
+  }
+  h2{
+    font-size: 25px;
+  }
+  /* .Main-Display-Image h1{
+    font-size: 20px;
+    padding-left: 35px;
+  }
+  .Main-Display-Image p{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 15px;
+  } */
+  
+}
+
+
+/* @media screen and (max-width: 620px){
+  .Cart-Container-Programs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+  }
+  
+} */
+@media screen and (max-width: 920px){
+  .Header-Section{
+    display: none;
+    
+    
+  }
+  .Cart-Container-Programs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+  }
+  .Main-Display-Image h1{
+    font-size: 35px;
+    padding-left: 25px;
+  }
+  .Main-Display-Image p{
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 15px;
+  }
+  input[type='search']{
+    padding: 13px;
+    width: 95%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ba6438;
+    outline: #ba6438;
+  }
+  .Search-Input div{
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 940px){
+  .Cart-Container-Programs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+  }
+}
+/* Phone view css starting here..... */
+
+@media screen and (min-width: 730px){
+  
+  .Cart-Container-Programs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+  }
+  .Footer-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* position: relative; */
+  }
+  .Footer-Content{
+    display: grid;
+    grid-column: 1/5;
+  }
+  /* .Sub-Links{
+    display: none;
+  }
+  .Nav-Links{
+    display: none;
+  } */
+  
+}
