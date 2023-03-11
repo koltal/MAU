@@ -57,7 +57,7 @@ function App() {
           <Route path='/detailNews' element={<Detail_News/>}/>
           <Route path='/allnews' element={<All_News/>}/>
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
     </div>
   );

@@ -262,7 +262,7 @@ input[type='search']{
 }
 /* Phone view css starting here..... */
 
-@media screen and (min-width: 730px){
+@media screen and (max-width: 730px){
   
   .Cart-Container-Programs{
     display: grid;
@@ -272,6 +272,7 @@ input[type='search']{
   }
   .Footer-Container{
     display: grid;
+    margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
     /* position: relative; */
   }
