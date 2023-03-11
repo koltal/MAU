@@ -272,7 +272,7 @@ input[type='search']{
   }
   .Footer-Container{
     display: grid;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     grid-template-columns: repeat(1, 1fr);
     /* position: relative; */
   }
